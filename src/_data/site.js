@@ -6,7 +6,7 @@ const environmentSpecificVariables = {
     url: 'http://localhost:4001',
   },
   production: {
-    url: 'https://www.aleksandrhovhannisyan.com',
+    url: 'https://affectionate-gates-1063aa.netlify.app/',
   },
 };
 
@@ -21,8 +21,8 @@ module.exports = {
   description: 'Dev tutorials, thoughts on software development, and the occasional off-topic post.',
   keywords: ['Aleksandr Hovhannisyan'],
   issues: {
-    owner: `AleksandrHovhannisyan`,
-    repo: `aleksandrhovhannisyan.com`,
+    owner: `pubrondeau`,
+    repo: `alek`,
   },
   pagination: {
     itemsPerPage: 20,
