@@ -15,11 +15,11 @@ const featureFlags = {
 };
 
 module.exports = {
-  title: 'Aleksandr Hovhannisyan',
-  author: 'Aleksandr Hovhannisyan',
-  email: 'aleksandrhovhannisyan@gmail.com',
-  description: 'Dev tutorials, thoughts on software development, and the occasional off-topic post.',
-  keywords: ['Aleksandr Hovhannisyan'],
+  title: 'Meilleur parrain',
+  author: 'Emmmanuel Rondeau',
+  email: 'super-parrain@jekife.fr',
+  description: 'Meilleur site de Parrainage - Fortuneo, Boursorama, Rakuten, Vinted, Store et rideaux, Veepee',
+  keywords: ['Emmanuel Rondeau'],
   issues: {
     owner: `pubrondeau`,
     repo: `alek`,
