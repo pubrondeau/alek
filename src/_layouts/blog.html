@@ -13,9 +13,9 @@ eleventyComputed:
 <article class="stack gap-10">
   {%- assign pageTag = tag.title | default: 'all' -%}
   <header class="stack gap-0">
-    <h1>{%- if pageTag == 'all' -%}All Blog Posts{%- else -%}Tag: {{ pageTag }}{%- endif -%}</h1>
+    <h1>{%- if pageTag == 'all' -%}Tous les tags{%- else -%}Tag: {{ pageTag }}{%- endif -%}</h1>
     <p class="fs-md">
-      Filter by one of the following popular tags, or <a href="/tags/">view all tags</a>.
+      Filtrer par tag ou <a href="/tags/">voir tous les tags</a>.
     </p>
     <nav aria-label="Popular tags" class="relative prose prose-tight">
       <a class="screen-reader-only flex-center skip-popular-tags" href="#skip-popular-tags">Skip to posts</a>
